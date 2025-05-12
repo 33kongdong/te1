@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
         platform:
-          - runner: ubuntu-20.04
+          - runner: ubuntu-lastest
             target: x64
     steps:
       - uses: actions/checkout@v4
